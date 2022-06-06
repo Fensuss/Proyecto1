@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#"  />
+    <title>GAMETILT</title>
+    
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="container-fluid bg-dark position-sticky top-0">
+    <div class="contenido">
+		
+    <!-- logo -->
+    
+     <h1><img src="imagenes/LOGITO.png" alt=""> <i></i></h1>
+     
+      <ul
+        class="nav nav-pills mb-3 py-3 container"
+        id="pills-tab"
+        role="tablist"
+      >
+        
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link active"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+            >Productos</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+            >Carrito</a
+          >
+        </li>
+      </ul>
+    </header>
+    	<div>
+      <h2 class="text-center"> <img src="imagenes/girt.gif" alt="1000" width="1350px" height="310px" </h2>
+       
+       
+        </div>
+        
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+    Producto Añadido al carrito!
+    </div>
+    <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+      Producto removido!
+    </div>
+
+    <div class="tab-content" id="pills-tabContent">
+      <div
+        class="tab-pane fade "
+        id="pills-home"
+        role="tabpanel"
+        aria-labelledby="pills-home-tab"
+      >
+        
+      </div>
+      <div
+        class="tab-pane fade show active container"
+        id="pills-profile"
+        role="tabpanel"
+        aria-labelledby="pills-profile-tab"
+      >
+        
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Forza horizon 4</h5>
+              <img src="imagenes/productos/Forza-Horizon-4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Forza Horizon 4 es un auténtico juegazo, y una obra, CARRERAS Y CONDUCCION.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 534</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Hollow Knight (Steam key)</h5>
+              <img src="./imagenes/productos/hollow-knight.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Hollow Knight es un juego estilo “Metroidvania” con un estilo de arte muy parecido al trabajo de Tim Burton.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 149.99</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Mortal kombat 11 (Steam key)</h5>
+              <img src="./imagenes/productos/mortal%20kombat.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Mortal Kombat 11 es un videojuego que logra entretener durante horas. </p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 999.00</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Stardew Valley (Steam key)</h5>
+              <img src="./imagenes/productos/estardew.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Stardew Valley es un juego de gestión agraria, en el que nos permitirán elegir entre uno de los cinco tipos de granja disponibles.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 149.99</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Katana ZERO</h5>
+              <img src="./imagenes/productos/Katana.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Katana Zero es un juego desafiante pero no en extremo difícil. Solo requiere atención y un grado medio de estrategia. Los niveles son variados y aunque el combate cuerpo a cuerpo es la mecánica principal, también es posible usar elementos del entorno para defenderse.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 154.99</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Doom Eternal (Steam key)</h5>
+              <img src="./imagenes/productos/doom.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">El mejor FPS que jugarás en años DOOM Eternal 9.3 Jugabilidad 9.2/10 Diversión 9.2/10 Gráficas y sonido 9.5/10 .</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 359.00</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Dark Souls(Steam key)</h5>
+              <img src="./imagenes/productos/darc.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Dark Souls es un RPG de acción en tercera persona, que se caracteriza por una atmósfera oscura y una dificultad muy por encima de los estándares actuales.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 769.00</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Darksiders II(Steam Key)</h5>
+              <img src="./imagenes/productos/siders.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Darksiders II es visualmente más poderoso en consolas, y tal vez más barato, pero si quieres llevar el juego a todos lados o no tienes otra consola, esta es uno de los mejores.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 269.99</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+      <div
+        class="tab-pane fade carrito"
+        id="pills-contact"
+        role="tabpanel"
+        aria-labelledby="pills-contact-tab"
+      >
+      <br>
+      <table class="table table-dark table-hover">
+        <thead>
+          <tr class="text-primary">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          
+        
+          
+        </tbody>
+      </table>
+      <br><br>
+      <div class="row mx-4">
+        <div class="col">
+          <h3 class="itemCartTotal text-black">Total:0</h3>
+        </div>
+        <div class="col d-flex justify-content-end">
+          <button class="btn btn-success">COMPRAR</button>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+
+    <footer class="bg-dark p-3 mt-5">
+			<div class="container">
+			<h3><img src="imagenes/logo%20peque%C3%B1o.png" alt=""></h3>
+			<p>"Solo los videojuegos tienen la respuesta."</p>
+			<ul class="sociales">
+				<li><a href="#"><span class="icon-facebook"></span></a></li>
+				<li><a href="#"><span class="icon-twitter"></span></a></li>
+				<li><a href="#"><span class="icon-whatsapp"></span></a></li>
+			</ul>
+		</div>
+	<div class="negro">
+		</div>	
+    </footer>
+
+		
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts.js"></script>
+    
+    <!--- u7ltimo --->
+    
+  </body>
+</html>
